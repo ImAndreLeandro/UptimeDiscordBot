@@ -30,7 +30,7 @@ let msg = "Time:";
 
 msg += `${seconds}s`;
 ```
-So, this isn't getting if it has hours or minutes, so lets start by seeing how many it has and if it has more than `0`, it will add to the message!
+So, this isn't getting if it has hours or minutes, so lets start by seeing how many it has and if it has more than `0`, it will added to the message!
 ```js
 let hours = 0, minutes = 0, seconds = total;
 
