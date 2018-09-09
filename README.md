@@ -26,9 +26,9 @@ But let's start by making the inicial!
 ```js
 let hours = 0, minutes = 0, seconds = total;
 
-let message = "Time:";
+let msg = "Time:";
 
-message += `${seconds}s`;
+msg += `${seconds}s`;
 ```
 So, this isn't getting if it has hours or minutes, so lets start by seeing how many it has and if it has more than `0`, it will add to the message!
 ```js
@@ -44,14 +44,14 @@ while(minutes > 59) {
   hours;
 }
 
-let message = "Time:";
+let msg = "Time:";
 if (hours > 0) {
   time += ` ${hours}h`;
 }
 if (minutes > 0) {
   time += ` ${minutes}m`;
 }
-message += `${seconds}s`;
+msg += `${seconds}s`;
 ```
 
 ### 4- Now the command
