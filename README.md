@@ -75,12 +75,13 @@ client.on("message", async message => {
 
     let msg = "Time:";
     if (hours > 0) {
-      time += ` ${hours}h`;
+      msg += ` ${hours}h`;
     }
     if (minutes > 0) {
-      time += ` ${minutes}m`;
+      msg += ` ${minutes}m`;
     }
     msg += ` ${seconds}s`;
     message.channel.send(msg);
   }
-});```
+});
+```
